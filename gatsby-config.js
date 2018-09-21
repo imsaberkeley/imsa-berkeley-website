@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'IMSA',
+    author: 'Information Management Student Association (IMSA)',
+    description: 'The hub for all things I-School',
+    siteUrl: 'https://imsaberkeley.org',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
