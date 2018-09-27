@@ -1,5 +1,6 @@
 ---
 title: Hello World
+category: news
 date: "2018-09-20T22:12:03.284Z"
 ---
 

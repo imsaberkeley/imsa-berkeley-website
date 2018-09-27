@@ -109,7 +109,6 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             category
-            draft
           }
         }
       }
