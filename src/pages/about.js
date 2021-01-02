@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import styled from 'styled-components'
 import { db } from '../../config/firebase'
 import Chair from '../components/chair'
+import Header from '../components/header'
 
 const ChairSection = styled.div`
   margin-bottom: 40px;
@@ -25,14 +26,72 @@ export default function About(props) {
   if (!chairs) return <div></div>
   return (
     <React.Fragment>
+       <Header></Header>
+       
+       <div style={{
+          display:'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center'
+
+          }}>
+             <div style={{
+         width: '90%',
+         //  textAlign: 'center',
+          margin: '60px 0',
+          fontFamily: 'Crimson Text',
+          fontSize: '48px'
+          }}>2020 IMSA Chairs</div>
       <Chair
         title={'President'}
         name={chairs.president.name}
         url={chairs.president.photo}
         description={chairs.president.description}
       ></Chair>
+      <Chair
+        title={'Vice President of Academic Affairs'}
+        name={chairs.academic.name}
+        url={chairs.academic.photo}
+        description={chairs.academic.description}
+      ></Chair>
+      <Chair
+        title={'Vice President of Finance'}
+        name={chairs.finance.name}
+        url={chairs.finance.photo}
+        description={chairs.finance.description}
+      ></Chair>
+      <Chair
+        title={'Director of Career and Alumni Relations'}
+        name={chairs.alumni.name}
+        url={chairs.alumni.photo}
+        description={chairs.alumni.description}
+      ></Chair>
+      <Chair
+        title={'Co-Director of Social Affairs'}
+        name={chairs.social1.name}
+        url={chairs.social1.photo}
+        description={chairs.social1.description}
+      ></Chair>
+      <Chair
+        title={'Co-Director of Social Affairs'}
+        name={chairs.social2.name}
+        url={chairs.social2.photo}
+        description={chairs.social2.description}
+      ></Chair>
+      <Chair
+        title={'Co-Director of Recruitment'}
+        name={chairs.recruitment1.name}
+        url={chairs.recruitment1.photo}
+        description={chairs.recruitment1.description}
+      ></Chair>
+      <Chair
+        title={'Co-Director of Recruitment'}
+        name={chairs.recruitment2.name}
+        url={chairs.recruitment2.photo}
+        description={chairs.recruitment2.description}
+      ></Chair>
 
-      {/* <div>{chairs}</div> */}
+   </div>
+    
     </React.Fragment>
   )
 }

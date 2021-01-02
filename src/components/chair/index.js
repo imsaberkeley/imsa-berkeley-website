@@ -5,21 +5,21 @@ function Chair(props) {
   return (
       <div
       style={{
-        width:'50%',
-        margin: '20px',
+        width:'45%',
+        margin: '40px 30px 0px 30px',
       }}
       >
       <div style={{
       fontSize: '36px',
       fontFamily: 'Crimson Text',
-      borderBottom: '5px solid gold',
+      borderBottom: '1px solid gold',
       }}
       >{props.title}</div>
     <div
       style={{
         display: 'flex',
         flexDirection: 'row',
-        margin: '20px',
+        margin: '40px 20px',
 
       }}
     >
@@ -27,11 +27,16 @@ function Chair(props) {
       <div
         style={{
           width: '300px',
+          height: '300px',
+          overflow: 'hidden',
+          borderRadius: '50%',
         }}
       >
         <img
           style={{
-            borderRadius: '50%',
+            width: '100%',
+            height: 'auto',
+            
             borderColor: 'yellow',
             margin:'0 auto',
             // border: '2px solid gold'
