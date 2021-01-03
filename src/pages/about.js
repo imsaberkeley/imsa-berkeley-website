@@ -36,55 +36,55 @@ export default function About(props) {
           }}>
              <div style={{
          width: '90%',
-         //  textAlign: 'center',
+          textAlign: 'center',
           margin: '60px 0',
           fontFamily: 'Crimson Text',
           fontSize: '48px'
           }}>2020 IMSA Chairs</div>
       <Chair
-        title={'President'}
+        title={chairs.president.title}
         name={chairs.president.name}
         url={chairs.president.photo}
         description={chairs.president.description}
       ></Chair>
       <Chair
-        title={'Vice President of Academic Affairs'}
+        title={chairs.academic.title}
         name={chairs.academic.name}
         url={chairs.academic.photo}
         description={chairs.academic.description}
       ></Chair>
       <Chair
-        title={'Vice President of Finance'}
+        title={chairs.finance.title}
         name={chairs.finance.name}
         url={chairs.finance.photo}
         description={chairs.finance.description}
       ></Chair>
       <Chair
-        title={'Director of Career and Alumni Relations'}
+        title={chairs.alumni.title}
         name={chairs.alumni.name}
         url={chairs.alumni.photo}
         description={chairs.alumni.description}
       ></Chair>
       <Chair
-        title={'Co-Director of Social Affairs'}
+        title={chairs.social1.title}
         name={chairs.social1.name}
         url={chairs.social1.photo}
         description={chairs.social1.description}
       ></Chair>
       <Chair
-        title={'Co-Director of Social Affairs'}
+        title={chairs.social2.title}
         name={chairs.social2.name}
         url={chairs.social2.photo}
         description={chairs.social2.description}
       ></Chair>
       <Chair
-        title={'Co-Director of Recruitment'}
+        title={chairs.recruitment1.title}
         name={chairs.recruitment1.name}
         url={chairs.recruitment1.photo}
         description={chairs.recruitment1.description}
       ></Chair>
       <Chair
-        title={'Co-Director of Recruitment'}
+        title={chairs.recruitment2.title}
         name={chairs.recruitment2.name}
         url={chairs.recruitment2.photo}
         description={chairs.recruitment2.description}
