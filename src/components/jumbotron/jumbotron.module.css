@@ -1,0 +1,53 @@
+.background {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100vw;
+    height: 700px;
+        /* backgroundSize: '100%',
+        width: '100vw',
+        minHeight: '100vh' */
+}
+
+@media screen and (max-width: 1400px) {
+    .background {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .background {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .background {
+        height: 400px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .background {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .background {
+        height: 200px;
+    }
+}
+
+.welcome {
+    float:right;
+    margin:10% 10%;
+    font-family: 'Crimson Text';
+    max-width: 320px;
+    text-align:center
+}
+@media screen and (max-width: 800px) {
+    .welcome {
+        margin: 5% 15%
+    }
+}

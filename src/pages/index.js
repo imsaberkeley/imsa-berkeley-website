@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import { Container } from '../components/elements'
-import Jumbotron from '../components/jumbotron'
+import Jumbotron from '../components/jumbotron/jumbotron'
 import Footer from '../components/Footer'
 
 import Layout from '../components/layout'

@@ -1,30 +1,19 @@
-import React from './node_modules/react'
-import { Link } from './node_modules/gatsby'
+import React from 'react'
+import { Link } from 'gatsby'
 import bg from "./southhall-bg.png"
-import { Container, PullRight } from './elements'
+import { Container, PullRight } from '../elements'
 import styles from './jumbotron.module.css'
 
 const Jumbotron = ({ siteTitle }) => (
   <div
   >
-    <div
+    <div className={styles.background}
       style={{
         backgroundImage: `url(${bg})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: '100%',
-        width: '100vw',
-        minHeight: '100vh'
+        
       }}
     >
-    <div style={{
-        float:'right',
-        margin:'10% 10%',
-        fontFamily: 'Crimson Text',
-        maxWidth: '320px',
-        textAlign:'center'
-
-        
-      }}>
+    <div className={styles.welcome} >
         <h1 style={{
         fontFamily: 'Crimson Text',
 

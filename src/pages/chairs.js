@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { db } from '../../config/firebase'
 import Chair from '../components/chair'
 import Header from '../components/header'
-
+import Footer from '../components/Footer'
 const ChairSection = styled.div`
   margin-bottom: 40px;
 `
@@ -92,7 +92,7 @@ export default function About(props) {
       ></Chair>
 
    </div>
-    
+    <Footer/>
     </React.Fragment>
   )
 }
