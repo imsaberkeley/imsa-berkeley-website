@@ -10,7 +10,6 @@ const Header = ({ siteTitle }) => (
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        // justifyContent: 'flex-end',
         margin: '40px auto',
         width: '90%',
         fontFamily: 'Crimson Text',

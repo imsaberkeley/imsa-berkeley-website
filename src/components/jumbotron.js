@@ -1,7 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from './node_modules/react'
+import { Link } from './node_modules/gatsby'
 import bg from "./southhall-bg.png"
-import { Container, PullRight } from '../components/elements'
+import { Container, PullRight } from './elements'
+import styles from './jumbotron.module.css'
 
 const Jumbotron = ({ siteTitle }) => (
   <div
@@ -15,7 +16,22 @@ const Jumbotron = ({ siteTitle }) => (
         minHeight: '100vh'
       }}
     >
-      <Container> 
+    <div style={{
+        float:'right',
+        margin:'10% 10%',
+        fontFamily: 'Crimson Text',
+        maxWidth: '320px',
+        textAlign:'center'
+
+        
+      }}>
+        <h1 style={{
+        fontFamily: 'Crimson Text',
+
+        
+      }}>Welcome to IMSA</h1>
+        <p>The Information Management Student Association at UC Berkeley</p> </div>
+      {/* <Container> 
         <PullRight>
           <div style={{ 
             maxWidth: '300px',
@@ -30,7 +46,7 @@ const Jumbotron = ({ siteTitle }) => (
             <p>Information Management Student Association (IMSA)</p>
           </div>
         </PullRight>
-      </Container>
+      </Container> */}
     </div>
   </div>
 )
