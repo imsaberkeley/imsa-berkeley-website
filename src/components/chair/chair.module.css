@@ -52,6 +52,13 @@
   border-radius: 50%;
 }
 
+@media screen and (max-width: 350px) {
+  .photo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .image {
   width: 100%;
   height: auto;
@@ -78,6 +85,7 @@
   margin: 0 0 20px 0;
   font-size: 36px;
   font-family: 'Crimson Text';
+  line-height: 38px;
 }
 
 @media screen and (max-width: 700px) {

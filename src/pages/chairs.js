@@ -39,8 +39,9 @@ export default function About(props) {
           textAlign: 'center',
           margin: '60px 0',
           fontFamily: 'Crimson Text',
-          fontSize: '48px'
-          }}>2020 IMSA Chairs</div>
+          fontSize: '48px',
+          lineHeight: '50px'
+          }}>2020 <nobr>IMSA Chairs</nobr></div>
       <Chair
         title={chairs.president.title}
         name={chairs.president.name}

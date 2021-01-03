@@ -6,7 +6,7 @@ export const PullRight = styled.div`
 
 export const NavItem = styled.div`
   display: inline-block;
-  padding: 0 20px;
+  margin: 0 10px;
   cursor: pointer;
 `
 
