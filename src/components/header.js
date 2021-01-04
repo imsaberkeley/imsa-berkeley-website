@@ -22,14 +22,29 @@ const Header = ({ siteTitle }) => (
           textDecoration: 'none',
         }}
       >
-        <img src={logo} alt="Logo" height="30px" style={{marginBottom:'0'}}/>
+        <img
+          src={logo}
+          alt="Logo"
+          height="30px"
+          style={{ marginBottom: '0' }}
+        />
       </Link>
 
       <div style={{ display: 'flex', justifyContent: 'flex-end', flex: '1' }}>
         {/* <NavItem>
           News
         </NavItem> */}
-        <NavItem>About</NavItem>
+        <NavItem>
+          <Link
+            to="/events"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+            Events
+          </Link>
+        </NavItem>
         <NavItem>
           <Link
             to="/chairs"
@@ -41,7 +56,17 @@ const Header = ({ siteTitle }) => (
             Chairs
           </Link>
         </NavItem>
-        <NavItem>Contact</NavItem>
+        <NavItem>
+          <Link
+            to="/contact"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+            Contact
+          </Link>
+        </NavItem>
         {/* <NavItem>
           <a
             href="https://goo.gl/forms/6CMhcfKIApIOwEuq1"

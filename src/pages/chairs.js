@@ -7,9 +7,9 @@ import { db } from '../../config/firebase'
 import Chair from '../components/chair'
 import Header from '../components/header'
 import Footer from '../components/Footer'
-const ChairSection = styled.div`
-  margin-bottom: 40px;
-`
+// const ChairSection = styled.div`
+//   margin-bottom: 40px;
+// `
 
 export default function About(props) {
   const [chairs, setChairs] = useState()
@@ -23,7 +23,7 @@ export default function About(props) {
     })
   }, [])
 
-  if (!chairs) return <div></div>
+  if (!chairs) return <div>Loading</div>
   return (
     <React.Fragment>
        <Header></Header>
@@ -37,7 +37,7 @@ export default function About(props) {
              <div style={{
          width: '90%',
           textAlign: 'center',
-          margin: '60px 0',
+          margin: '60px 0 100px 0',
           fontFamily: 'Crimson Text',
           fontSize: '48px',
           lineHeight: '50px'

@@ -1,6 +1,6 @@
 .outer {
   width: 45%;
-  margin: 40px 30px 0px 30px;
+  margin: 0px 30px 40px 30px;
   /* '@media(minWidth: 700px)': {width: '100%'} */
 }
 
