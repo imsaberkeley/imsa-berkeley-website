@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './chair.module.css'
 
-// import Radium from 'radium'
 
 function Chair(props) {
   return (
