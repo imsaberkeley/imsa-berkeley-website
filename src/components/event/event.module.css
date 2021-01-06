@@ -4,21 +4,29 @@
     margin: 40px 0;
 }
 
+@media screen and (max-width: 1100px) {
+    .container {
+        align-items: center;
+    }
+}
 
 .name {
     font-size: 48px;
     line-height: 50px;
-    margin: 20px 20px;
+    margin: 20px 20px 60px 20px;
 }
 
 .photo {
     position: relative;
     width: 60%;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1100px) {
     .photo {
-        margin: 0 auto;    
+        width: 80%;
+        margin: 0 auto 40px auto;
+
     }
 }
 
@@ -27,8 +35,8 @@
     position: absolute;
     top: -10px;
     left: -10px;
-    width: 300px;
-    height: 150px;
+    width: 50%;
+    height: 30%;
     background-color: gold;
     z-index: -1;
 }
@@ -60,5 +68,10 @@
     height: 20px;
     background-color: gold;
     align-self: flex-end;
+    margin-bottom: 60px;
 
+}
+
+.decoration2:last-child {
+    margin-bottom: 100px;
 }

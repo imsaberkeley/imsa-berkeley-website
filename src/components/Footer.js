@@ -4,7 +4,7 @@ import logo from './imsa-logo.png'
 import { PullRight, NavItem } from './elements'
 
 const Footer = () => (
-  <>
+  <React.Fragment>
     <div
       style={{
         backgroundColor: 'black',
@@ -18,7 +18,7 @@ const Footer = () => (
     >
       © 2020 IMSA
     </div>
-  </>
+  </React.Fragment>
 )
 
 export default Footer
