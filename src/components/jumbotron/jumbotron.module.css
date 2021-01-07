@@ -41,11 +41,18 @@
 
 .welcome {
     float:right;
-    margin:10% 10%;
+    margin:10% 12%;
     font-family: 'Crimson Text';
     max-width: 320px;
     text-align:center
 }
+
+@media screen and (max-width: 1280px) {
+    .welcome {
+        margin: 10% 10%
+    }
+}
+
 @media screen and (max-width: 800px) {
     .welcome {
         margin: 5% 15%

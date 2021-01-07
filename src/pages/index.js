@@ -38,7 +38,7 @@ class BlogIndex extends React.Component {
         />
         <Jumbotron />
         <div style={{
-          margin: '60px 10%',
+          margin: '60px 10% 120px 10%',
           fontFamily: 'Crimson Text',
           textAlign:'justify'
         }}>
