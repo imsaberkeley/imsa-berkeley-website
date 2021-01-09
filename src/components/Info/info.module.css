@@ -16,7 +16,7 @@
 
 .content {
     width: 60%;
-    margin-bottom: 40px;
+    margin: 40px 0 40px 0;
     flex:1;
     font-family: 'Crimson Text';
 }

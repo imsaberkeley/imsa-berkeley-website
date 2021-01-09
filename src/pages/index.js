@@ -1,15 +1,15 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
-import { Container } from '../components/elements'
 import Jumbotron from '../components/jumbotron/jumbotron'
 import Footer from '../components/Footer'
-
 import Layout from '../components/layout'
-import { rhythm } from '../utils/typography'
-import { Grid, Row, Col } from 'react-flexbox-grid'
+
+// import { Link } from 'gatsby'
+// import { Container } from '../components/elements'
+// import { rhythm } from '../utils/typography'
+// import { Grid, Row, Col } from 'react-flexbox-grid'
 // import styles from '../../styles/home.module.css'
 
 class BlogIndex extends React.Component {

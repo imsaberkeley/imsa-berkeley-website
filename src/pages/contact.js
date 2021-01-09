@@ -11,8 +11,6 @@ export default function Contact(props) {
             <Header/>
             <Info/>
             <Footer/>
-
-
         </React.Fragment>
     )
 }

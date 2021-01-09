@@ -3,6 +3,7 @@ import { db } from '../../config/firebase'
 import Header from '../components/header'
 import Footer from '../components/Footer'
 import Event from '../components/event'
+import Loading from '../components/Loading'
 
 export default function Events(props) {
   const [events, setEvents] = useState()
@@ -15,7 +16,7 @@ export default function Events(props) {
     })
   }, [])
 
-  if (!events) return <div>Loading</div>
+  if (!events) return <Loading/>
   return (
     <React.Fragment>
       <Header />
@@ -23,7 +24,7 @@ export default function Events(props) {
       <div
         style={{
           textAlign: 'center',
-          margin: '60px 0 100px 0',
+          margin: '100px 0 80px 0',
           fontFamily: 'Crimson Text',
           fontSize: '48px',
           lineHeight: '50px',
